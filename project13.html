@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 400px;
+            width: 700px;
+            border: 1px solid;
+            display: flex;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+        .box{
+            width: 700px;
+            border: 1px solid;
+        }
+        main{
+            height: 500px;
+            width: 900px;
+            border: 1px solid;
+            margin: 0 auto;
+            background-image: url(./images\ 123.jpg);
+            background-size: cover;
+        }
+        #child2{
+            background-image: url(./pexels-burst-374899.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #child1{
+              background-color:lightslategrey;
+        }
+        h1{
+            margin-left: 15px;
+            color: white;
+            }
+         
+          b{
+            margin-left: 15px;
+            color: white;
+        }
+        a{
+            margin-left: 100px;
+            margin-top: 400px;
+            padding: 7px;
+        }
+        </style>
+</head>
+<body>
+    <main>
+    
+    <div id="parent">
+        <div class="box" id="child1">
+            <table cellspacing="10px">
+                <form action="">
+                    <tr>
+                        <td><h1>Sign in/Sign Up</h1></td>
+                    </tr>
+                    <tr>
+                        <td><b>User name</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="User name" style=" outline-style: none; border: none; border-bottom: 1px solid crimson; margin-left: 15px; height: 15px;width: 250px;background-color:lightslategray;color: black;"></td>
+                    </tr>
+                    <tr>
+                       <td><b>Password</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="" id="" placeholder="Password" style=" outline-style: none; border: none; border-bottom: 1px solid crimson; margin-left: 15px; height: 15px;  width: 250px;background-color: lightslategray;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id="" style="margin-left: 15px;">
+                            <a href="" style="text-decoration: none;color:white;margin-left:-10px">Remember me?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="SIGN IN"  style="height: 25px;width:250px;border: 1px solid crimson;color: white;background-color:lightslategray ;margin-left: 15px;"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="FORGOT PASSWORD ?" style="background-color:lightslategrey ;border: none;margin-left: 50px;margin-top: 60px;"></td>
+                    </tr>
+                </form>
+            </table>
+            
+        </div>
+        
+        <div class="box" id="child2"> </div>
+    </div>
+    </main>
+</body>
+</html>

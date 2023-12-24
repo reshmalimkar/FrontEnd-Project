@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent
+        {
+            height: 400px;
+            width: 365px;
+            border: 1px solid springgreen;
+           margin: 0 auto;
+            margin-top: 50px;
+            background-color: springgreen;
+            border-radius: 10px;
+            box-shadow: 5px 5px darkslategray;
+          }
+        h1{
+            margin-left: 5px;
+            margin-top: -20px;
+
+        }
+        .box{
+            height: 18px;
+            width: 340px;
+            border: 1px solid;
+            border: none;
+            border-bottom: 1px solid;
+        }
+        input{
+            outline-style: none;
+            border: none;
+            border-bottom: 1px solid;
+            box-shadow: 2px 2px;
+           
+
+        }
+        #bio{
+            height: 50px;
+            width: 340px;
+            border: 1px solid;
+            border: none;
+            border-bottom: 2px solid;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div><h1>Register</h1></div>
+        <div>
+            <table cellspacing="5px">
+                <form action="">
+                    <tr>
+                        <td> Name:</td>
+                     </tr>
+                     <tr>
+                        <td><input type="text" placeholder="First">
+                        <input type="text" placeholder="Last">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Username:</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="box" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                    </tr>
+                    <tr>
+                        <td><input class="box" type="email" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input class="box" type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Short Bio</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="bio" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>share a little information about yourself</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit" style="background-color: red;color:white;"></td>
+                    </tr>
+                    
+                </form>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

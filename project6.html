@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        #parent{
+            height: 450px;
+            width: 700px;
+            border: 1px solid hotpink;
+            margin: 0 auto;
+            margin-top: 60px;
+            display: flex;
+            border-radius: 2%;
+            
+        }
+        .box{
+            height: 450px;
+            width: 350px;
+            border: 1px solid white;
+            border-radius: 2%;
+            /* border-color: white; */
+            margin-top: 70px;
+            
+        }
+        #child1{
+            background-image: url(./CSS/flowers-977988_1920.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        main{
+            background-color: hotpink;
+            height: 900px;
+            width: 900px;
+            border: 1px hotpink;
+            margin-top: 0 auto;
+        }
+        #child2{
+            background-color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+    <div id="parent">
+        <div class="box" id="child1"></div>
+        <div class="box" id="child2">
+            <table cellspacing="25px">
+                <form action="">
+                <tr>
+                    <h2>Registration info</h2>
+                    <br>
+                    <td>Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Birthdate:</td>
+                    <td><input type="date" name="" id=""></td>
+                    <td><i class="fa fa-calendar" aria-hidden="true"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td> <select name="" id=""><option value="">Male</option>
+                        <option value="">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><input style="background-color: green;" type="submit" value="Submit"></td>
+                
+                </tr>
+                </form>
+            </table>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

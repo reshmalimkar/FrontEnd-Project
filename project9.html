@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+       
+        #parent{
+            height: 500px;
+            width:1050px;
+            border: 1px solid;
+            margin: 0 auto;
+            display: flex;
+            margin-top: 80px;
+        }
+        .child{
+            /* height: 500px; */
+            width: 1050px;
+            border: 1px solid;
+        }
+        main{
+            height: 700px;
+            width: 1300px;
+            border: 1px solid;
+            margin: 0 auto;
+            background-color: deeppink;
+        }
+        .line{
+            height: 40px;
+            width: 350px;
+            border: 1px solid;
+            border: none;
+            border-bottom: 2px solid;
+        }
+        #info{
+            margin-left: 10px;
+        }
+        input{
+            outline-style: none;
+            border: none;
+            border-bottom: 2px;
+        }
+        #H4{
+            margin-left: -82px;
+        }
+        #H5{
+            margin-left: -100px;
+            margin-top: 40px;
+        }
+        #h1{
+            text-size-adjust: 300px;
+        }
+        #child1{
+            background-image: url(./image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #H1{
+            font-size: 60px;
+            color: white;
+            text-align: center;
+             margin-left: -300px;
+
+        }
+        #h4{
+            color: white;
+            margin-left: 30px;
+        }
+        #h3{
+            color: white;
+            margin-left: 30px;
+        }
+        #facebook{
+            height: 20px;
+            width: 60px;
+            border: 1px solid;
+            border-radius: 17px;
+            margin-right: 40px;
+            background-color: cadetblue;
+
+        }
+        #twiter{
+            height: 20px;
+            width: 142px;
+            border: 1px solid;
+            border-radius: 15px;
+            background-color: darkturquoise;
+            color: white;
+            padding: 6px;
+
+        }
+        #child2{
+            background-color: white;
+        }
+         </style>
+</head>
+<body>
+    <main>
+
+    <div id="parent">
+        <div class="child" id="child1"> 
+            <table>
+                <tr>
+                    <td><h1 id="H1">Hello <br> World.</h1></td>
+                </tr>
+                <tr>
+                    <td><h4 id="h4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ullam non odio iusto repellat ducimus eaque dignissimos ipsa quaerat! Libero.</h4> </td>
+                </tr>
+                <tr>
+                    <td><h3 id="h3">Login with social media</h3></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <!-- <i id="facebook" class="fa fa-facebook" aria-hidden="true"></i> -->
+                            <a href="#" class="fa fa-facebook" style="padding: 6px;
+                            font-size: 23px;
+                            width: 70px;
+                            text-align: center;
+                            text-decoration: none;
+                            margin: 5px 2px;
+                            background: #3B5998;
+                            color: white;
+                            border-radius: 98px;
+                            margin-left: 21px;
+               "></a>
+                            <i id="twiter"  class="fa fa-twitter" aria-hidden="true">login with twiter</i>
+                            
+                        </div>
+                    </td>
+                </tr>
+                </table>
+        </div>
+        <div class="child" id="child2">
+            <table id="info">
+                <form action="">
+                    <tr>
+                        <td><h1>Login</h1></td>
+                    </tr>
+                    <tr>
+                        <td><h4>Don't have an account?</h4></td>
+                        <td><a href="" style="margin-left:-198px; text-decoration: none;">Create an account.</a></td>
+                        <td> <h4 id="H4"> it takes less than a minute</h4> </td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td><input class="line" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="line" type="password" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="" id="" style="margin-top: 25px;">Remember Me</td>
+                        <td><h5 id="H5">Forgot password<h5></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Login" style="margin-top: 15px;margin-left:280px; border-radius: 17px;background-color: green; width: 89px;height: 41px;" ></td>
+                    </tr>
+
+                </form>
+            </table>
+
+        </div>
+        
+    </div>
+    </main>
+</body>
+</html>
